@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     TextView out;
+    private static String TAG = "Main";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.test);
 
         out = findViewById(R.id.out);
-        out.setText("Hello kkkkk");
+        out.setText("Hello aaaaaa");
 
         EditText inp = findViewById(R.id.inp);
         String str = inp.getText().toString();
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
     public void onClick(View v){
+        Log.i(TAG,"onClick:................");
         out.setText("AAAAAAAAA");
     }
 }
