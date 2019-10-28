@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".score">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/team"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="TeamA"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/scroe"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:hint="0"
+            android:inputType="number"
+            android:textSize="80dp" />
+
+        <Button
+            android:id="@+id/butt1"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/buttons"
+            android:text="*3 POINTS"
+            android:textSize="20dp"
+
+
+            />
+
+        <Button
+            android:id="@+id/butt2"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/buttons"
+            android:text="*2 POINTS"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/butt3"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/buttons"
+            android:text="*1 PINGT"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/teamB"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="TeamB"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/scroeB"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:hint="0"
+            android:inputType="number"
+            android:textSize="80dp" />
+
+        <Button
+            android:id="@+id/buttB1"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/buttons"
+            android:text="*3 POINTS"
+            android:textSize="20dp"
+
+
+            />
+
+        <Button
+            android:id="@+id/buttB2"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/buttons"
+            android:text="*2 POINTS"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttB3"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/buttons"
+            android:text="*1 PINGT"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/butt4"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@color/button"
+            android:text="RESET"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

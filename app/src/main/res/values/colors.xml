@@ -4,4 +4,8 @@
     <color name="colorPrimaryDark">#303F90</color>
     <color name="colorAccent">#CBBB84</color>
     <color name="colorcard">#21315C</color>
+    <color name="buttons">#F0E683</color>
+    <color name="button">#BDB76B</color>
+    <color name="b_all">#FFA54F</color>
+    <color name="exchange">#FF4040</color>
 </resources>

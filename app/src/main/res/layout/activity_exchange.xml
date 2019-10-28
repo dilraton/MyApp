@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="370dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".exchange">
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="input RMB"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:text="Hello"
+        android:padding="10dp"
+        />
+
+     <Button
+         android:id="@+id/b1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="23dp"
+         android:onClick="dollar"
+         android:text="DOLLAR"
+         android:background="@color/b_all"
+         android:padding="10dp"
+         />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:onClick="euro"
+        android:text="EURO"
+        android:background="@color/b_all"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="WON"
+        android:onClick="won"
+        android:background="@color/b_all"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:onClick="config"
+        android:text="NEXT"
+        android:background="@color/b_all"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        />
+
+</LinearLayout>
